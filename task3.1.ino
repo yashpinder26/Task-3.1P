@@ -26,7 +26,7 @@ void loop() {
 
   int curr_light = readLightSensor();
 
-  if (curr_light > 0) {
+  if (curr_light > 20) {
     lstate = "On";
   } else {
     lstate = "Off";
